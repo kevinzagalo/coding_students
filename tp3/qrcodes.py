@@ -1,7 +1,8 @@
+import pandas as pd
+
 import numpy as np
 import pandas as pd
 import galois
-from .tables import *
 
 
 class qrcode:
@@ -506,3 +507,4 @@ class qrcode:
         
         modules = (modules > 0).astype(int)
         return modules
+
