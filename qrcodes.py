@@ -1,5 +1,5 @@
 import pandas as pd
-
+from tables import *
 import numpy as np
 import pandas as pd
 import galois
@@ -447,7 +447,7 @@ class qrcode:
 
         # convert from ec ints to bytes
         ec_blocks_byte = [
-            [f'{codeword:08b}' for codeword in ec_block_poly.coeffs]
+            [f'{int(codeword):08b}' for codeword in ec_block_poly.coeffs]
                 for ec_block_poly in ec_blocks_poly
         ]
         # print(list(map(len, ec_blocks_byte)))
