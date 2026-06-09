@@ -1,1 +1,1 @@
-All credits to [LelioC][https://github.com/LelioC]
+All credits to [LelioC](https://github.com/LelioC)
